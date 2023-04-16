@@ -21,6 +21,6 @@ export const Filter = ({data, onChangeInputFilter}) => {
      }
 
 Filter.propTypes = {
-    data: PropTypes.string.isRequired,
-    onChangeInputFilter: PropTypes.func.isRequired,   
+    data: PropTypes.string,
+    onChangeInputFilter: PropTypes.func,   
 }
